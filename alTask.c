@@ -39,7 +39,7 @@ void  free_list( const node_t * plist ){
 }
 
 
-
+int buba;
 struct node_t * read_file(FILE * f){
     int n;
     node_t * el = NULL, * ol = NULL, * node,*lastol = NULL,*lastel = NULL;
